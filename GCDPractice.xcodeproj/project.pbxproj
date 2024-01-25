@@ -13,6 +13,8 @@
 		7B7E0D962B623F13008D79B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7E0D942B623F13008D79B9 /* Main.storyboard */; };
 		7B7E0D982B623F14008D79B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7E0D972B623F14008D79B9 /* Assets.xcassets */; };
 		7B7E0D9B2B623F14008D79B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7E0D992B623F14008D79B9 /* LaunchScreen.storyboard */; };
+		7B7E0DA42B624021008D79B9 /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7E0DA32B624021008D79B9 /* GCDViewController.swift */; };
+		7B7E0DA62B6257BD008D79B9 /* NasaAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7E0DA52B6257BD008D79B9 /* NasaAssistant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7B7E0D972B623F14008D79B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B7E0D9A2B623F14008D79B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B7E0D9C2B623F14008D79B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B7E0DA32B624021008D79B9 /* GCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
+		7B7E0DA52B6257BD008D79B9 /* NasaAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaAssistant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		7B7E0D8D2B623F13008D79B9 /* GCDPractice */ = {
 			isa = PBXGroup;
 			children = (
+				7B7E0DA22B62400A008D79B9 /* GCD */,
 				7B7E0D8E2B623F13008D79B9 /* AppDelegate.swift */,
 				7B7E0D902B623F13008D79B9 /* SceneDelegate.swift */,
 				7B7E0D922B623F13008D79B9 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				7B7E0D9C2B623F14008D79B9 /* Info.plist */,
 			);
 			path = GCDPractice;
+			sourceTree = "<group>";
+		};
+		7B7E0DA22B62400A008D79B9 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				7B7E0DA32B624021008D79B9 /* GCDViewController.swift */,
+				7B7E0DA52B6257BD008D79B9 /* NasaAssistant.swift */,
+			);
+			path = GCD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +155,8 @@
 				7B7E0D932B623F13008D79B9 /* ViewController.swift in Sources */,
 				7B7E0D8F2B623F13008D79B9 /* AppDelegate.swift in Sources */,
 				7B7E0D912B623F13008D79B9 /* SceneDelegate.swift in Sources */,
+				7B7E0DA62B6257BD008D79B9 /* NasaAssistant.swift in Sources */,
+				7B7E0DA42B624021008D79B9 /* GCDViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
